@@ -669,6 +669,10 @@ export default function Page() {
             <div className={`text-sm font-light mt-4 ${isDarkMode ? "text-gray-400" : "text-gray-600"}`}>
               Contact us at - Deep Horizon, Ashirwad Bhavan, Maligaon, Guwahati 781012, Assam<br />
               Phone: <a href="tel:+918638071503" className={isDarkMode ? "hover:text-blue-400" : "hover:text-blue-600"}>+91 8638071503</a>
+              <div className="mt-3 flex gap-4">
+                <a href="/privacy-policy" className={isDarkMode ? "hover:text-blue-400" : "hover:text-blue-600"}>Privacy Policy</a>
+                <a href="/terms-of-service" className={isDarkMode ? "hover:text-blue-400" : "hover:text-blue-600"}>Terms of Service</a>
+              </div>
             </div>
           </div>
         </div>
