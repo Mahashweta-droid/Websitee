@@ -55,7 +55,7 @@ export default function SubscriptionPage() {
     {
       id: 'individual-yearly',
       name: 'Individual Plan',
-      price: 1639,
+      price: 1699,
       period: 'year',
       originalPrice: 1788,
       savings: '₹149 (Save 8%)',
@@ -91,7 +91,7 @@ export default function SubscriptionPage() {
     {
       id: 'family-yearly',
       name: 'Family Plan',
-      price: 7139,
+      price: 7199,
       period: 'year',
       originalPrice: 7788,
       savings: '₹649 (Save 8%)',
