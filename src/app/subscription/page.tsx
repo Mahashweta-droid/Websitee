@@ -46,7 +46,7 @@ export default function SubscriptionPage() {
       features: [
         'Personal safety tracking',
         'Emergency alerts',
-        '5 video monitoring sessions',
+        'Unlimited video monitoring sessions',
         'Location sharing',
         '24/7 security monitoring'
       ],
@@ -63,7 +63,7 @@ export default function SubscriptionPage() {
       features: [
         'Personal safety tracking',
         'Emergency alerts',
-        '5 video monitoring sessions',
+        'Unlimited video monitoring sessions',
         'Location sharing',
         '24/7 security monitoring',
         'Save 8%'
@@ -82,7 +82,7 @@ export default function SubscriptionPage() {
         'Up to 5 family members',
         'Family safety tracking',
         'Emergency alerts',
-        '5 video monitoring sessions',
+        'Unlimited video monitoring sessions',
         'Location sharing',
         '24/7 security monitoring'
       ],
@@ -100,7 +100,7 @@ export default function SubscriptionPage() {
         'Up to 5 family members',
         'Family safety tracking',
         'Emergency alerts',
-        '5 video monitoring sessions',
+        'Unlimited video monitoring sessions',
         'Location sharing',
         '24/7 security monitoring',
         'Save 8%'
