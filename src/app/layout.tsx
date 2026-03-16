@@ -1,27 +1,25 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Deep Horizon",
-  description: "Advanced security solutions for everyone's safety"
+  title: "Deep Horizon — Personal Security Concierge",
+  description: "Real-time monitoring, trained human backup, and silent emergency response. Ready the instant you need it.",
 };
 
 export default function RootLayout({
-  children
-}: Readonly<{children: React.ReactNode;}>) {
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" data-oid="b1jifow">
-      <head data-oid="x0ail_k">
-        <Script
-          type="module"
-          src="https://cdn.jsdelivr.net/gh/onlook-dev/onlook@main/apps/web/preload/dist/index.js"
-          data-oid="zxbuq9a" />
-
+    <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,700&family=Inter:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
       </head>
-      <body className="antialiased" data-oid="hqec2:a">
-        {children}
-      </body>
-    </html>);
-
+      <body>{children}</body>
+    </html>
+  );
 }
